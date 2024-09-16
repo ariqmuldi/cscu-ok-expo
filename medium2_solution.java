@@ -2,7 +2,7 @@
 public class medium2_solution {
     public static void main(String[] args) {
         String sentence = "The quick brown fox jumps over the lazy dog";
-        if (count_words(sentence) == 9) {  // Mistake kept
+        if (count_words(sentence) == 9) {
             System.out.println("Number of words: " + count_words(sentence));
             System.out.println("You are correct!");
         } else {
@@ -18,7 +18,7 @@ public class medium2_solution {
                 count += 1;
             }
         }
-        return count + 1;  // Mistake kept
+        return count + 1;
     }
 
     

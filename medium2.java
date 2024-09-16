@@ -14,7 +14,7 @@ public class medium2 {
         int count = 0;
         for (char charVar : sentence.toCharArray()) {
             if (charVar == " ") {
-                count += 1;
+                count += 1
             }
         }
         return count;
