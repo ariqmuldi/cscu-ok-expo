@@ -16,7 +16,7 @@ public class medium1 {
         int count = 0;
         for (char charVar : string.toCharArray()) { 
             if (vowels.indexOf(charVar) >= 0) {
-                count =+ 1;  
+                count =+ 1 
             }
         }
         return count;

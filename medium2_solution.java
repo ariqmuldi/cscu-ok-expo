@@ -1,4 +1,4 @@
-// Change from == " " to ' ' and return count + 1
+// Change from == " " to ' ' and return count + 1 and add semi colon after count += 1
 public class medium2_solution {
     public static void main(String[] args) {
         String sentence = "The quick brown fox jumps over the lazy dog";
